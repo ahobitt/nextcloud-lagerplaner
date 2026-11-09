@@ -25,7 +25,7 @@ jobs:
       - name: Oberfläche bauen
         run: npm ci && npm run build
       - name: Integrationstest
-        run: tests/Integration/run.sh
+        run: bash tests/Integration/run.sh
         env:
           NC_IMAGE: ${{ matrix.image }}
           DB: ${{ matrix.db }}

@@ -50,7 +50,7 @@ done
 $COMPOSE exec -T -u33 app ./occ status
 
 echo "== Testdaten"
-COMPOSE="$COMPOSE" ./setup-testdata.sh
+COMPOSE="$COMPOSE" bash ./setup-testdata.sh
 
 echo "== Abläufe über die API"
 python3 smoke.py --base "http://127.0.0.1:$NC_PORT" --state "$STATE"

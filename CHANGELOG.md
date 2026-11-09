@@ -8,6 +8,11 @@ Seit 0.6.3 gibt es nur noch eine Datenbankmigration (Grundschema). Die Entwicklu
 
 Erste Version im Nextcloud App Store. Die App ist im öffentlichen Test; Rückmeldungen bitte in den Bugtracker. 0.17.0 war ein interner Teststand; die neue Nummer sorgt dafür, dass Nextcloud auch dort aktualisiert (Migrationen, neue Skripte im Browser), wo 0.17.0 schon eingespielt war.
 
+### Behoben (CI auf GitHub)
+- Ein Test-Hilfsmethode hieß `status()` und kollidierte mit der finalen Methode `TestCase::status()` von PHPUnit; PHPUnit brach deshalb beim Laden ab. Umbenannt; alle 314 Tests laufen mit PHPUnit 11.5.
+- Integrationstest: Skripte werden über `bash` gestartet und brauchen kein Ausführbar-Recht mehr (das unter Windows verloren gehen kann).
+- `.gitattributes`: Zeilenenden im Repository immer LF.
+
 ### Rückmeldung aus dem Test
 - Assistent: Hinweis, wenn für die Kinder und Jugendlichen keine oder nur eine leitende Person eingetragen ist oder mehr als acht Teilnehmende auf eine Leitung kommen (Faustregel, keine Sperre); im Schritt „Teilnehmende“ und in „Entwurf prüfen“.
 

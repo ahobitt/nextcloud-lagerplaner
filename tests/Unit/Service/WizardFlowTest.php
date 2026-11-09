@@ -526,7 +526,7 @@ final class WizardFlowTest extends ServiceTestCase {
 		$preview = $this->wizard->rerunPreview($id, 'anna', $input);
 		$this->assertGreaterThanOrEqual(1, $preview['meals']['summary']['conflict']);
 		$this->wizard->rerunApply($id, 'anna', $input, $preview['token']);
-		$this->assertNotSame('none', $this->status($id, (int)$lunch->getId()));
+		$this->assertNotSame('none', $this->mealStatus($id, (int)$lunch->getId()));
 	}
 
 	public function testMealPlanCanBeCopiedToSameMealType(): void {
@@ -540,7 +540,7 @@ final class WizardFlowTest extends ServiceTestCase {
 
 		$this->assertSame(count($lunches) - 2, $changed);
 		$this->assertSame('Eigener Plan', $this->catering->mealPlan((int)$lunches[1]->getId(), 'anna')['plan']['variants'][0]['label']);
-		$this->assertSame('none', $this->status($id, $this->breakfastId($id)));
+		$this->assertSame('none', $this->mealStatus($id, $this->breakfastId($id)));
 	}
 
 	public function testOtherUsersCannotSeeDietaryData(): void {
@@ -550,7 +550,7 @@ final class WizardFlowTest extends ServiceTestCase {
 		$this->catering->overview($id, 'ben');
 	}
 
-	private function status(int $campId, int $mealId): string {
+	private function mealStatus(int $campId, int $mealId): string {
 		foreach ($this->catering->overview($campId, 'anna')['meals'] as $meal) {
 			if ($meal['id'] === $mealId) {
 				return $meal['status'];
