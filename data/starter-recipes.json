@@ -1,0 +1,1384 @@
+{
+ "version": "2026.1",
+ "license": "CC0 1.0",
+ "about": "Grundrezepte des Lagerplaners, frei verwendbar. Mengen für 10 Standardportionen (Portionsfaktor 1,0).",
+ "recipes": [
+  {
+   "key": "chili_sin_carne",
+   "title": "Chili sin Carne mit Reis",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 60,
+   "ingredients": [
+    {
+     "name": "Reis",
+     "quantity": 1,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl",
+     "quantity": 4,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Zwiebeln",
+     "quantity": 4,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Knoblauch",
+     "quantity": 4,
+     "unit": "Zehe",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 4,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Paprikaschoten",
+     "quantity": 3,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Rote Linsen",
+     "quantity": 300,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Kidneybohnen",
+     "quantity": 4,
+     "unit": "Dose",
+     "note": "je 240 g abgetropft"
+    },
+    {
+     "name": "Mais",
+     "quantity": 2,
+     "unit": "Dose",
+     "note": "je 285 g abgetropft"
+    },
+    {
+     "name": "Gehackte Tomaten",
+     "quantity": 4,
+     "unit": "Dose",
+     "note": "je 400 g"
+    },
+    {
+     "name": "Gemüsebrühe",
+     "quantity": 750,
+     "unit": "ml",
+     "note": "fertige Brühe; Pulver oder Würfel auf Allergene prüfen"
+    },
+    {
+     "name": "Paprikapulver edelsüß",
+     "quantity": 2,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Kreuzkümmel, gemahlen",
+     "quantity": 1,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Chilipulver",
+     "quantity": 1,
+     "unit": "TL",
+     "note": "für Wölflinge weniger"
+    },
+    {
+     "name": "Salz und Pfeffer",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Reis nach Packungsangabe garen und warm halten.",
+    "Zwiebeln, Knoblauch, Möhren und Paprika klein würfeln.",
+    "Öl im großen Topf erhitzen, Zwiebeln und Knoblauch glasig anschwitzen, dann Möhren und Paprika kurz mitbraten.",
+    "Gewürze kurz mitrösten. Linsen, Tomaten und Brühe zugeben und etwa 20 Minuten köcheln lassen, bis die Linsen weich sind. Öfter umrühren.",
+    "Bohnen und Mais abgießen, abspülen, unterrühren und weitere 10 Minuten köcheln lassen.",
+    "Mit Salz, Pfeffer und Chili abschmecken. Wer es scharf mag, würzt am Tisch nach."
+   ],
+   "note": "Saure Sahne oder geriebener Käse passen dazu. Sie enthalten Milch und werden getrennt gereicht.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "linseneintopf",
+   "title": "Linseneintopf",
+   "servings": 10,
+   "category": "soup",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 60,
+   "ingredients": [
+    {
+     "name": "Tellerlinsen",
+     "quantity": 700,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Kartoffeln, festkochend",
+     "quantity": 1.2,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 600,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Lauch",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": "Stangen"
+    },
+    {
+     "name": "Zwiebeln",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl",
+     "quantity": 3,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Gemüsebrühe",
+     "quantity": 3,
+     "unit": "l",
+     "note": "fertige Brühe; Pulver oder Würfel auf Allergene prüfen"
+    },
+    {
+     "name": "Lorbeerblätter",
+     "quantity": 3,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Majoran, getrocknet",
+     "quantity": 2,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Essig",
+     "quantity": 3,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Salz und Pfeffer",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Linsen im Sieb abspülen. Kartoffeln und Möhren schälen und würfeln, Lauch in Ringe und Zwiebeln in Würfel schneiden.",
+    "Zwiebeln im Öl glasig dünsten, Möhren und Lauch kurz mitdünsten.",
+    "Linsen, Kartoffeln, Brühe und Lorbeer zugeben, aufkochen und etwa 35 Minuten leise köcheln lassen, bis alles weich ist.",
+    "Lorbeerblätter herausnehmen. Mit Majoran, Essig, Salz und Pfeffer abschmecken."
+   ],
+   "note": "Dazu passt Brot; es enthält in der Regel Gluten.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "kartoffelsuppe",
+   "title": "Kartoffelsuppe",
+   "servings": 10,
+   "category": "soup",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 50,
+   "ingredients": [
+    {
+     "name": "Kartoffeln, mehligkochend",
+     "quantity": 2,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 500,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Lauch",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": "Stangen"
+    },
+    {
+     "name": "Zwiebeln",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl",
+     "quantity": 3,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Gemüsebrühe",
+     "quantity": 2.5,
+     "unit": "l",
+     "note": "fertige Brühe; Pulver oder Würfel auf Allergene prüfen"
+    },
+    {
+     "name": "Majoran, getrocknet",
+     "quantity": 2,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Muskat",
+     "quantity": 1,
+     "unit": "Prise",
+     "note": ""
+    },
+    {
+     "name": "Petersilie",
+     "quantity": 1,
+     "unit": "Bund",
+     "note": ""
+    },
+    {
+     "name": "Salz und Pfeffer",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Kartoffeln und Möhren schälen und würfeln, Lauch in Ringe schneiden, Zwiebeln würfeln.",
+    "Zwiebeln im Öl andünsten, übriges Gemüse zugeben und mit der Brühe auffüllen.",
+    "Etwa 25 Minuten köcheln lassen, bis die Kartoffeln weich sind. Einen Teil grob zerstampfen, damit die Suppe sämig wird.",
+    "Mit Majoran, Muskat, Salz und Pfeffer abschmecken und mit gehackter Petersilie bestreuen."
+   ],
+   "note": "Würstchen als Einlage gehören in eine eigene Variante; die Suppe ist dann nicht mehr vegetarisch.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "spaghetti_tomatensosse",
+   "title": "Spaghetti mit Tomatensoße",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegan",
+   "contains": [
+    "gluten"
+   ],
+   "prepMinutes": 40,
+   "ingredients": [
+    {
+     "name": "Spaghetti",
+     "quantity": 1.3,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Olivenöl",
+     "quantity": 5,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Zwiebeln",
+     "quantity": 3,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Knoblauch",
+     "quantity": 4,
+     "unit": "Zehe",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Gehackte Tomaten",
+     "quantity": 4,
+     "unit": "Dose",
+     "note": "je 400 g"
+    },
+    {
+     "name": "Tomatenmark",
+     "quantity": 3,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Oregano, getrocknet",
+     "quantity": 2,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Zucker",
+     "quantity": 1,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Salz und Pfeffer",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Zwiebeln und Knoblauch fein würfeln, Möhren fein reiben.",
+    "Zwiebeln im Öl glasig dünsten, Knoblauch und Möhren kurz mitdünsten, Tomatenmark kurz anrösten.",
+    "Tomaten, Oregano und Zucker zugeben und mindestens 20 Minuten offen köcheln lassen. Mit Salz und Pfeffer abschmecken.",
+    "Spaghetti in reichlich Salzwasser nach Packungsangabe kochen und abgießen."
+   ],
+   "note": "Reibekäse getrennt anbieten, er enthält Milch. Glutenfreie Nudeln in eigenem Topf mit eigenem Sieb kochen.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "gemuesecurry",
+   "title": "Gemüsecurry mit Kichererbsen und Reis",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 50,
+   "ingredients": [
+    {
+     "name": "Reis",
+     "quantity": 1,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl",
+     "quantity": 3,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Zwiebeln",
+     "quantity": 3,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Knoblauch",
+     "quantity": 3,
+     "unit": "Zehe",
+     "note": ""
+    },
+    {
+     "name": "Ingwer, frisch",
+     "quantity": 30,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Currypulver",
+     "quantity": 3,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 600,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Zucchini",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Paprikaschoten",
+     "quantity": 3,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Kichererbsen",
+     "quantity": 3,
+     "unit": "Dose",
+     "note": "je 240 g abgetropft"
+    },
+    {
+     "name": "Kokosmilch",
+     "quantity": 2,
+     "unit": "Dose",
+     "note": "je 400 ml"
+    },
+    {
+     "name": "Gemüsebrühe",
+     "quantity": 500,
+     "unit": "ml",
+     "note": "fertige Brühe; Pulver oder Würfel auf Allergene prüfen"
+    },
+    {
+     "name": "Zitronensaft",
+     "quantity": 2,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Salz",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Reis nach Packungsangabe garen.",
+    "Zwiebeln, Knoblauch und Ingwer fein hacken, Gemüse in mundgerechte Stücke schneiden.",
+    "Zwiebeln, Knoblauch und Ingwer im Öl andünsten, Currypulver kurz mitrösten.",
+    "Möhren zugeben, mit Kokosmilch und Brühe ablöschen und 10 Minuten köcheln lassen.",
+    "Zucchini, Paprika und abgespülte Kichererbsen zugeben und weitere 10 Minuten garen. Mit Salz und Zitronensaft abschmecken."
+   ],
+   "note": "Currypulver und Brühe können Senf oder Sellerie enthalten; Packung prüfen.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "milchreis",
+   "title": "Milchreis mit Obst",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegetarian",
+   "contains": [
+    "lactose",
+    "milk_protein"
+   ],
+   "prepMinutes": 45,
+   "ingredients": [
+    {
+     "name": "Milch",
+     "quantity": 4,
+     "unit": "l",
+     "note": ""
+    },
+    {
+     "name": "Milchreis",
+     "quantity": 1,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Zucker",
+     "quantity": 150,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Salz",
+     "quantity": 1,
+     "unit": "Prise",
+     "note": ""
+    },
+    {
+     "name": "Zimt",
+     "quantity": 2,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Zucker zum Bestreuen",
+     "quantity": 100,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Obst der Saison",
+     "quantity": 1.5,
+     "unit": "kg",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Milch mit Zucker und Salz unter Rühren aufkochen.",
+    "Reis einrühren, Hitze reduzieren und etwa 30 Minuten quellen lassen. Häufig vom Boden her rühren, Milchreis brennt schnell an.",
+    "Wer eine Kochkiste oder einen gut isolierten Topf hat, lässt den Reis nach dem Aufkochen darin nachquellen. Das spart Gas und nichts brennt an.",
+    "Obst waschen und klein schneiden. Milchreis mit Zimt und Zucker und dem Obst servieren."
+   ],
+   "note": "Mit Pflanzendrink wird Milchreis vegan; dafür ein eigenes Rezept anlegen.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "pfannkuchen",
+   "title": "Pfannkuchen mit Apfelmus",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegetarian",
+   "contains": [
+    "gluten",
+    "egg",
+    "lactose",
+    "milk_protein"
+   ],
+   "prepMinutes": 60,
+   "ingredients": [
+    {
+     "name": "Weizenmehl",
+     "quantity": 750,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Eier",
+     "quantity": 10,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Milch",
+     "quantity": 1.5,
+     "unit": "l",
+     "note": ""
+    },
+    {
+     "name": "Salz",
+     "quantity": 1,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl zum Braten",
+     "quantity": 150,
+     "unit": "ml",
+     "note": ""
+    },
+    {
+     "name": "Apfelmus",
+     "quantity": 2,
+     "unit": "Glas",
+     "note": "je 700 g, oder Zimt und Zucker"
+    }
+   ],
+   "steps": [
+    "Mehl, Eier, Salz und etwa die Hälfte der Milch glatt rühren, dann die übrige Milch nach und nach einrühren. Den Teig 15 Minuten ruhen lassen.",
+    "Wenig Öl in der Pfanne erhitzen und eine Kelle Teig dünn verteilen.",
+    "Wenden, sobald die Oberseite nicht mehr flüssig ist, und kurz fertig backen.",
+    "Fertige Pfannkuchen abgedeckt warm halten und mit Apfelmus servieren."
+   ],
+   "note": "Für große Gruppen mehrere Pfannen gleichzeitig nutzen.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "kaiserschmarrn",
+   "title": "Kaiserschmarrn mit Apfelmus",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegetarian",
+   "contains": [
+    "gluten",
+    "egg",
+    "lactose",
+    "milk_protein"
+   ],
+   "prepMinutes": 45,
+   "ingredients": [
+    {
+     "name": "Weizenmehl",
+     "quantity": 500,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Eier",
+     "quantity": 10,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Milch",
+     "quantity": 1,
+     "unit": "l",
+     "note": ""
+    },
+    {
+     "name": "Zucker",
+     "quantity": 80,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Salz",
+     "quantity": 1,
+     "unit": "Prise",
+     "note": ""
+    },
+    {
+     "name": "Butter",
+     "quantity": 100,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Rosinen",
+     "quantity": 150,
+     "unit": "g",
+     "note": "nach Wunsch"
+    },
+    {
+     "name": "Puderzucker",
+     "quantity": 50,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Apfelmus",
+     "quantity": 2,
+     "unit": "Glas",
+     "note": "je 700 g"
+    }
+   ],
+   "steps": [
+    "Eier trennen. Eigelb mit Milch, Mehl, Zucker und Salz glatt rühren.",
+    "Eiweiß steif schlagen und vorsichtig unterheben.",
+    "Butter in einer großen Pfanne schmelzen, Teig etwa 1 cm hoch eingießen und nach Wunsch Rosinen darüberstreuen.",
+    "Ist die Unterseite goldbraun, in Viertel teilen, wenden und mit zwei Pfannenwendern in Stücke reißen. Kurz fertig braten.",
+    "Mit Puderzucker bestäuben und mit Apfelmus servieren."
+   ],
+   "note": "",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "haferbrei",
+   "title": "Haferbrei mit Obst",
+   "servings": 10,
+   "category": "breakfast",
+   "diet": "vegetarian",
+   "contains": [
+    "gluten",
+    "lactose",
+    "milk_protein"
+   ],
+   "prepMinutes": 20,
+   "ingredients": [
+    {
+     "name": "Haferflocken",
+     "quantity": 800,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Milch",
+     "quantity": 2,
+     "unit": "l",
+     "note": ""
+    },
+    {
+     "name": "Wasser",
+     "quantity": 1,
+     "unit": "l",
+     "note": ""
+    },
+    {
+     "name": "Salz",
+     "quantity": 1,
+     "unit": "Prise",
+     "note": ""
+    },
+    {
+     "name": "Äpfel",
+     "quantity": 6,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Bananen",
+     "quantity": 5,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Zimt",
+     "quantity": 2,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Honig",
+     "quantity": 100,
+     "unit": "g",
+     "note": "oder Zucker"
+    }
+   ],
+   "steps": [
+    "Milch, Wasser und Salz aufkochen.",
+    "Haferflocken einrühren und bei kleiner Hitze unter Rühren etwa 5 Minuten quellen lassen.",
+    "Äpfel klein schneiden oder reiben, Bananen in Scheiben schneiden.",
+    "Mit Obst, Zimt und Honig servieren; jeder süßt selbst nach."
+   ],
+   "note": "Mit Hafer- oder Sojadrink und Sirup statt Honig wird der Brei vegan. Glutenfreie Haferflocken gibt es zu kaufen.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "stockbrot",
+   "title": "Stockbrot",
+   "servings": 10,
+   "category": "campfire",
+   "diet": "vegan",
+   "contains": [
+    "gluten"
+   ],
+   "prepMinutes": 60,
+   "ingredients": [
+    {
+     "name": "Weizenmehl",
+     "quantity": 1,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Trockenhefe",
+     "quantity": 2,
+     "unit": "Packung",
+     "note": "je 7 g"
+    },
+    {
+     "name": "Wasser, lauwarm",
+     "quantity": 550,
+     "unit": "ml",
+     "note": ""
+    },
+    {
+     "name": "Salz",
+     "quantity": 2,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Zucker",
+     "quantity": 1,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl",
+     "quantity": 4,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Kräuter, getrocknet",
+     "quantity": 2,
+     "unit": "TL",
+     "note": "nach Wunsch"
+    }
+   ],
+   "steps": [
+    "Mehl mit Hefe, Salz, Zucker und Kräutern mischen. Wasser und Öl zugeben und zu einem glatten Teig kneten.",
+    "Abgedeckt an einem warmen Ort 30 bis 45 Minuten gehen lassen.",
+    "Teig in Portionen teilen, zu Strängen rollen und spiralförmig um das vordere Ende entrindeter Stöcke wickeln.",
+    "Über der Glut drehen, nicht in der Flamme, bis das Brot rundum gebräunt ist."
+   ],
+   "note": "Die Stöcke vorher entrinden und nur unbedenkliche Hölzer wie Haselnuss verwenden.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "gemueseeintopf",
+   "title": "Gemüseeintopf",
+   "servings": 10,
+   "category": "soup",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 60,
+   "ingredients": [
+    {
+     "name": "Kartoffeln, festkochend",
+     "quantity": 1.5,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 800,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Lauch",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": "Stangen"
+    },
+    {
+     "name": "Weißkohl",
+     "quantity": 600,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Erbsen, tiefgekühlt",
+     "quantity": 400,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Zwiebeln",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl",
+     "quantity": 3,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Gemüsebrühe",
+     "quantity": 3,
+     "unit": "l",
+     "note": "fertige Brühe; Pulver oder Würfel auf Allergene prüfen, oft mit Sellerie"
+    },
+    {
+     "name": "Petersilie",
+     "quantity": 1,
+     "unit": "Bund",
+     "note": ""
+    },
+    {
+     "name": "Salz und Pfeffer",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Kartoffeln und Möhren schälen und würfeln, Lauch in Ringe, Kohl in Streifen und Zwiebeln in Würfel schneiden.",
+    "Zwiebeln im Öl glasig dünsten, Möhren, Lauch und Kohl kurz mitdünsten.",
+    "Kartoffeln und Brühe zugeben, aufkochen und etwa 25 Minuten köcheln lassen.",
+    "Erbsen zugeben und 5 Minuten mitkochen. Abschmecken und mit gehackter Petersilie bestreuen."
+   ],
+   "note": "Brot dazu reichen. Für eine glutenfreie Variante Brot weglassen oder glutenfreies Brot anbieten.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "gemuesereis",
+   "title": "Reis mit Gemüsepfanne",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 45,
+   "ingredients": [
+    {
+     "name": "Reis",
+     "quantity": 1,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Paprika",
+     "quantity": 4,
+     "unit": "Stück",
+     "note": "gemischt"
+    },
+    {
+     "name": "Zucchini",
+     "quantity": 3,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 600,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Mais",
+     "quantity": 2,
+     "unit": "Dose",
+     "note": "je 285 g"
+    },
+    {
+     "name": "Erbsen, tiefgekühlt",
+     "quantity": 300,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Zwiebeln",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Rapsöl",
+     "quantity": 5,
+     "unit": "EL",
+     "note": ""
+    },
+    {
+     "name": "Paprikapulver, edelsüß",
+     "quantity": 2,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Salz und Pfeffer",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Reis nach Packungsangabe in Salzwasser garen.",
+    "Gemüse waschen und in mundgerechte Stücke schneiden, Zwiebeln würfeln.",
+    "Zwiebeln und Möhren im Öl anbraten, nach 5 Minuten Paprika und Zucchini zugeben und 10 Minuten braten.",
+    "Mais und Erbsen zugeben, mit Paprikapulver, Salz und Pfeffer würzen und mit dem Reis servieren."
+   ],
+   "note": "Wer möchte, gibt Sojasoße dazu; dann Soja als Allergen beachten.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "wraps",
+   "title": "Wraps mit Bohnen und Gemüse",
+   "servings": 10,
+   "category": "main",
+   "diet": "vegan",
+   "contains": [
+    "gluten"
+   ],
+   "prepMinutes": 30,
+   "ingredients": [
+    {
+     "name": "Weizentortillas",
+     "quantity": 20,
+     "unit": "Stück",
+     "note": "groß"
+    },
+    {
+     "name": "Kidneybohnen",
+     "quantity": 3,
+     "unit": "Dose",
+     "note": "je 400 g"
+    },
+    {
+     "name": "Mais",
+     "quantity": 2,
+     "unit": "Dose",
+     "note": "je 285 g"
+    },
+    {
+     "name": "Paprika",
+     "quantity": 4,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Gurken",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Tomaten",
+     "quantity": 6,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Eisbergsalat",
+     "quantity": 1,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Tomatensalsa",
+     "quantity": 2,
+     "unit": "Glas",
+     "note": "je 300 g"
+    },
+    {
+     "name": "Kreuzkümmel, gemahlen",
+     "quantity": 1,
+     "unit": "TL",
+     "note": ""
+    },
+    {
+     "name": "Salz und Pfeffer",
+     "quantity": null,
+     "unit": "nach Geschmack",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Bohnen und Mais abspülen, Bohnen mit Kreuzkümmel, Salz und Pfeffer in einem Topf erwärmen und grob zerdrücken.",
+    "Paprika, Gurken und Tomaten in Streifen oder Würfel, Salat in Streifen schneiden und in Schüsseln stellen.",
+    "Tortillas kurz in der Pfanne erwärmen. Jede Person füllt ihren Wrap selbst mit Bohnen, Gemüse und Salsa."
+   ],
+   "note": "Gut für gemischte Gruppen: Alle stellen sich zusammen, was sie mögen. Glutenfreie Variante: Reis mit Gemüsepfanne.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "fruehstueck",
+   "title": "Frühstück mit Brot und Müsli",
+   "servings": 10,
+   "category": "breakfast",
+   "diet": "vegan",
+   "contains": [
+    "gluten"
+   ],
+   "prepMinutes": 20,
+   "ingredients": [
+    {
+     "name": "Brot oder Brötchen",
+     "quantity": 1.5,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Margarine",
+     "quantity": 250,
+     "unit": "g",
+     "note": "vegan"
+    },
+    {
+     "name": "Marmelade",
+     "quantity": 2,
+     "unit": "Glas",
+     "note": ""
+    },
+    {
+     "name": "Haferflocken",
+     "quantity": 600,
+     "unit": "g",
+     "note": ""
+    },
+    {
+     "name": "Haferdrink",
+     "quantity": 2,
+     "unit": "l",
+     "note": ""
+    },
+    {
+     "name": "Äpfel",
+     "quantity": 5,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Bananen",
+     "quantity": 5,
+     "unit": "Stück",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Brot schneiden und mit Margarine und Marmelade auf den Tisch stellen.",
+    "Haferflocken mit klein geschnittenem Obst als Müsli anbieten, Haferdrink dazu."
+   ],
+   "note": "Wer Milch, Butter, Käse oder Honig anbietet, ergänzt sie hier; dann Milch als Allergen eintragen und vegane Personen bedenken. Haferflocken enthalten Gluten.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "abendbrot",
+   "title": "Abendbrot mit Aufstrichen und Gemüse",
+   "servings": 10,
+   "category": "breakfast",
+   "diet": "vegan",
+   "contains": [
+    "gluten"
+   ],
+   "prepMinutes": 20,
+   "ingredients": [
+    {
+     "name": "Brot",
+     "quantity": 1.5,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Margarine",
+     "quantity": 200,
+     "unit": "g",
+     "note": "vegan"
+    },
+    {
+     "name": "Brotaufstrich, vegan",
+     "quantity": 3,
+     "unit": "Glas",
+     "note": "verschiedene Sorten"
+    },
+    {
+     "name": "Gurken",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Tomaten",
+     "quantity": 8,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Paprika",
+     "quantity": 3,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Möhren",
+     "quantity": 500,
+     "unit": "g",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Brot schneiden, Aufstriche und Margarine bereitstellen.",
+    "Gemüse waschen und in Sticks oder Scheiben schneiden."
+   ],
+   "note": "Gut nach einem warmen Mittagessen. Käse oder Wurst ergänzen ist möglich; dann Ernährungsweise und Allergene anpassen.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "brotzeit_glutenfrei",
+   "title": "Brotzeit glutenfrei",
+   "servings": 10,
+   "category": "breakfast",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 15,
+   "ingredients": [
+    {
+     "name": "Brot, glutenfrei",
+     "quantity": 1.2,
+     "unit": "kg",
+     "note": ""
+    },
+    {
+     "name": "Reiswaffeln",
+     "quantity": 2,
+     "unit": "Packung",
+     "note": ""
+    },
+    {
+     "name": "Margarine",
+     "quantity": 200,
+     "unit": "g",
+     "note": "vegan"
+    },
+    {
+     "name": "Marmelade",
+     "quantity": 1,
+     "unit": "Glas",
+     "note": ""
+    },
+    {
+     "name": "Gurken",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Tomaten",
+     "quantity": 6,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Äpfel",
+     "quantity": 5,
+     "unit": "Stück",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Glutenfreies Brot getrennt lagern und schneiden; eigenes Messer und Brett verwenden.",
+    "Mit Aufstrich, Gemüse und Obst anrichten."
+   ],
+   "note": "Für Frühstück und Abendbrot von Personen mit glutenfreiem Bedarf. Getrennt zubereiten, damit nichts mit Weizen in Berührung kommt.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "lunchpaket",
+   "title": "Lunchpaket für unterwegs",
+   "servings": 10,
+   "category": "side",
+   "diet": "vegan",
+   "contains": [
+    "gluten"
+   ],
+   "prepMinutes": 30,
+   "ingredients": [
+    {
+     "name": "Brötchen",
+     "quantity": 20,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Brotaufstrich, vegan",
+     "quantity": 2,
+     "unit": "Glas",
+     "note": ""
+    },
+    {
+     "name": "Gurken",
+     "quantity": 2,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Äpfel",
+     "quantity": 10,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Müsliriegel",
+     "quantity": 10,
+     "unit": "Stück",
+     "note": "auf Nüsse prüfen"
+    },
+    {
+     "name": "Möhren",
+     "quantity": 500,
+     "unit": "g",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Brötchen aufschneiden, mit Aufstrich und Gurkenscheiben belegen und einpacken.",
+    "Je Person zwei Brötchen, einen Apfel, Möhrensticks und einen Müsliriegel mitgeben."
+   ],
+   "note": "Für Wanderungen und Ausflüge. Wasserflaschen nicht vergessen.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "key": "obst_snack",
+   "title": "Obst und Reiswaffeln",
+   "servings": 10,
+   "category": "side",
+   "diet": "vegan",
+   "contains": [],
+   "prepMinutes": 10,
+   "ingredients": [
+    {
+     "name": "Äpfel",
+     "quantity": 6,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Bananen",
+     "quantity": 6,
+     "unit": "Stück",
+     "note": ""
+    },
+    {
+     "name": "Reiswaffeln",
+     "quantity": 2,
+     "unit": "Packung",
+     "note": ""
+    }
+   ],
+   "steps": [
+    "Obst waschen und in Stücke schneiden, mit den Reiswaffeln anbieten."
+   ],
+   "note": "Einfache Zwischenmahlzeit für alle.",
+   "source": {
+    "name": "Lagerplaner-Grundrezepte",
+    "url": "",
+    "license": "CC0 1.0"
+   }
+  }
+ ]
+}

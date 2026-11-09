@@ -1,0 +1,52 @@
+{
+	"format": "lagerplaner-sites/1",
+	"source": "testdaten",
+	"snapshotVersion": "test-1",
+	"sites": [
+		{
+			"sourceId": "1001",
+			"name": "Zeltwiese am Fuchsbau",
+			"type": "tent",
+			"address": {"street": "Waldweg 3", "postalCode": "51000", "city": "Testhausen", "state": "Nordrhein-Westfalen"},
+			"coordinates": {"lat": 51.0, "lon": 7.0},
+			"capacity": 120,
+			"features": {"water": true, "sanitary": true, "kitchen": false, "electricity": true, "fireplace": true, "accessible": null},
+			"priceText": "3 € pro Person und Nacht",
+			"description": "Große Wiese am Waldrand. Anfragen an platzwart@example.org oder 0221 123456-78.",
+			"homepage": "https://fuchsbau.example",
+			"sourceUrl": "https://example.org/plaetze/1001",
+			"sourceDate": "2024-04-15"
+		},
+		{
+			"sourceId": "1002",
+			"name": "Pfadfinderhaus Eulennest",
+			"type": "house",
+			"address": {"postalCode": "34000", "city": "Beispielstadt", "state": "Hessen"},
+			"coordinates": {"lat": 51.3, "lon": 9.5},
+			"capacity": 45,
+			"beds": 40,
+			"features": {"water": true, "sanitary": true, "kitchen": true, "electricity": true, "fireplace": "ja", "accessible": false},
+			"priceText": "auf Anfrage"
+		},
+		{
+			"sourceId": "1003",
+			"name": "Jugendzeltplatz Biberbach",
+			"type": "both",
+			"address": {"city": "Musterau", "state": "Nordrhein-Westfalen"},
+			"capacity": "ca. 50 bis 80",
+			"features": {}
+		},
+		{
+			"sourceId": "1004",
+			"name": "Kleine Lichtung",
+			"type": "tent",
+			"address": {"city": "Testhausen", "state": "Nordrhein-Westfalen"},
+			"coordinates": {"lat": 51.05, "lon": 7.05},
+			"capacity": 20,
+			"features": {"water": false, "fireplace": true}
+		},
+		{"sourceId": "1005", "type": "tent"},
+		{"sourceId": "1001", "name": "Doppelte Kennung", "type": "tent"},
+		{"sourceId": "1006", "name": "Seltsame Art", "type": "castle"}
+	]
+}

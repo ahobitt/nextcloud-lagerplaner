@@ -1,0 +1,37 @@
+{
+  "name": "lagerplaner",
+  "version": "0.17.1",
+  "private": true,
+  "description": "Nextcloud app for planning scout camps",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf css js && vite --mode production build",
+    "dev": "rm -rf css js && vite --mode development build",
+    "watch": "vite --mode development build --watch"
+  },
+  "dependencies": {
+    "@mdi/js": "7.4.47",
+    "@nextcloud/auth": "2.6.0",
+    "@nextcloud/axios": "2.6.0",
+    "@nextcloud/dialogs": "7.5.0",
+    "@nextcloud/initial-state": "3.0.0",
+    "@nextcloud/l10n": "3.4.1",
+    "@nextcloud/router": "3.2.0",
+    "@nextcloud/vue": "9.13.1",
+    "vue": "3.5.43"
+  },
+  "devDependencies": {
+    "@nextcloud/browserslist-config": "3.1.2",
+    "@nextcloud/vite-config": "2.5.4",
+    "sass": "1.104.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  },
+  "engines": {
+    "node": "^24.0.0"
+  },
+  "browserslist": [
+    "extends @nextcloud/browserslist-config"
+  ]
+}

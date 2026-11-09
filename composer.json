@@ -1,0 +1,34 @@
+{
+	"name": "lagerplaner/lagerplaner",
+	"description": "Nextcloud app for planning scout camps",
+	"license": "AGPL-3.0-or-later",
+	"type": "project",
+	"require": {
+		"php": "^8.2"
+	},
+	"require-dev": {
+		"nextcloud/ocp": "dev-stable33",
+		"phpunit/phpunit": "^11.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"OCA\\Lagerplaner\\": "lib/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/"
+		]
+	},
+	"config": {
+		"platform": {
+			"php": "8.2"
+		},
+		"optimize-autoloader": true,
+		"sort-packages": true
+	},
+	"scripts": {
+		"lint": "find lib tests -name '*.php' -print0 | xargs -0 -n1 php -l",
+		"test": "phpunit -c phpunit.xml"
+	}
+}

@@ -1,0 +1,23 @@
+# Integrationstest: echte Nextcloud mit PostgreSQL. Nur für Tests, Daten liegen im Arbeitsspeicher.
+services:
+  db:
+    image: postgres:16-alpine
+    tmpfs: [/var/lib/postgresql/data]
+    environment:
+      POSTGRES_DB: nextcloud
+      POSTGRES_USER: nextcloud
+      POSTGRES_PASSWORD: nc-test
+  app:
+    image: ${NC_IMAGE:-nextcloud:34-apache}
+    ports: ["127.0.0.1:${NC_PORT:-8081}:80"]
+    depends_on: [db]
+    volumes:
+      - ../..:/var/www/html/custom_apps/lagerplaner:ro
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_DB: nextcloud
+      POSTGRES_USER: nextcloud
+      POSTGRES_PASSWORD: nc-test
+      NEXTCLOUD_ADMIN_USER: admin
+      NEXTCLOUD_ADMIN_PASSWORD: admin-test-password
+      NEXTCLOUD_TRUSTED_DOMAINS: localhost 127.0.0.1

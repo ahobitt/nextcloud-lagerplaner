@@ -1,0 +1,32 @@
+# Integrationstest gegen eine echte Nextcloud (Docker), siehe tests/Integration/run.sh.
+name: Integration
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  nextcloud:
+    name: ${{ matrix.image }} / ${{ matrix.db }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        image: ['nextcloud:33-apache', 'nextcloud:34-apache', 'nextcloud:35-apache']
+        db: [mariadb, pgsql]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Oberfläche bauen
+        run: npm ci && npm run build
+      - name: Integrationstest
+        run: tests/Integration/run.sh
+        env:
+          NC_IMAGE: ${{ matrix.image }}
+          DB: ${{ matrix.db }}
+          COOKBOOK: 'yes'

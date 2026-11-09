@@ -1,0 +1,8 @@
+name,category,latitude,longitude,url
+Zeltwiese Talgrund,campsite,51.10,7.10,https://zeltwiese-talgrund.example/
+Haus am Hang,house,51.20,7.20,https://haus-am-hang.example/
+Pfadfinderzentrum Seeblick,campsite house,51.30,7.30,https://seeblick.example/
+"Base scout ""Il Pino"", Toskana",campsite,43.50,11.20,https://ilpino.example/
+Ohne Kategorie,igloo,51.40,7.40,https://iglu.example/
+Kaputte Lage,house,abc,7.50,https://kaputt.example/
+,campsite,51.60,7.60,https://ohne-namen.example/

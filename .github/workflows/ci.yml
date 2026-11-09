@@ -1,0 +1,45 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  php:
+    name: PHP ${{ matrix.php }}, Nextcloud ${{ matrix.nextcloud }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { nextcloud: '33', php: '8.2' }
+          - { nextcloud: '34', php: '8.3' }
+          - { nextcloud: '35', php: '8.4' }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+      - name: Nextcloud-API der Zielversion einbinden
+        run: |
+          composer config platform.php ${{ matrix.php }}
+          composer require --dev --no-update nextcloud/ocp:dev-stable${{ matrix.nextcloud }}
+          composer update --no-interaction --no-progress
+      - run: composer run lint
+      - run: composer run test
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build

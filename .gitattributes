@@ -1,0 +1,7 @@
+# Zeilenenden: im Repository immer LF, damit Skripte auch nach einem Commit unter Windows
+# auf Linux laufen (sonst „$'\r': command not found“).
+* text=auto eol=lf
+*.sh text eol=lf
+*.png binary
+*.jpg binary
+*.svg text eol=lf

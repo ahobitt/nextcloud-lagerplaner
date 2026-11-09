@@ -1,0 +1,85 @@
+[
+	{
+		"id": 101,
+		"status": "publish",
+		"modified_gmt": "2025-05-28T07:49:12",
+		"link": "https://pfadfinder-spiele.de/testspiel-kreis/",
+		"title": {"rendered": "Testspiel im Kreis &#8211; Variante"},
+		"excerpt": {"rendered": "<p>Alle stehen im Kreis und reagieren auf &#8222;Kommandos&#8220;.</p>\n"},
+		"content": {"rendered": "<p>Alle stehen im Kreis.</p>\n<p>&#8211; Erstes Kommando</p>\n<script>alert(1)</script><p onclick=\"x()\">Hinweis <a href=\"javascript:x\">hier</a></p>\n\n<div class=\"kk-star-ratings kksr-auto\" data-payload='{}'><div class=\"kksr-stars\"><div class=\"kksr-legend\">4.3/5 - (26 Stimmen)</div></div></div>\n"},
+		"acf": {
+			"spielart": ["Konzentrationsspiel", "Kreisspiel", "Warm up"],
+			"umgebung": ["Drinnen", "Draußen"],
+			"material": ["Nichts"],
+			"alter": 6,
+			"gruppenzusammensetzung": ["international geeignet"],
+			"ungefahre_dauer": 15,
+			"gruppengrose": ["6 - 25 Personen", "10 - 15 Personen", "15 - 25 Personen"],
+			"bekannt_als": ""
+		}
+	},
+	{
+		"id": 102,
+		"status": "publish",
+		"modified_gmt": "2025-05-28T07:49:13",
+		"link": "https://pfadfinder-spiele.de/testspiel-bewegung/",
+		"title": {"rendered": "Bewegungsspiel für Große Gruppen"},
+		"excerpt": {"rendered": "<p>Paare schütteln sich zu einem Lied, bis alle mitmachen.</p>"},
+		"content": {"rendered": "<p>Zwei beginnen, dann vier, dann alle.</p>"},
+		"acf": {
+			"spielart": ["Bewegungsspiel", "Warm up"],
+			"umgebung": ["Drinnen", "Draußen"],
+			"material": ["Nichts"],
+			"alter": "6",
+			"gruppenzusammensetzung": [],
+			"ungefahre_dauer": 5,
+			"gruppengrose": ["25 und mehr Personen", "6 - 10 Personen", "25 und mehr Personen"],
+			"bekannt_als": ""
+		}
+	},
+	{
+		"id": 103,
+		"status": "publish",
+		"modified_gmt": "2025-05-28T07:49:13",
+		"link": "https://pfadfinder-spiele.de/testspiel-zauberball/",
+		"title": {"rendered": "Fantasieball"},
+		"excerpt": {"rendered": "<p>Ein ausgedachter Ball wird mit Geräuschen weitergegeben.</p>"},
+		"content": {"rendered": "<p>Weitergeben, Richtung wechseln, quer werfen.</p>"},
+		"acf": {
+			"spielart": ["Konzentrationsspiel", "Kreisspiel"],
+			"umgebung": ["Drinnen"],
+			"material": ["Papier & Stifte", "Stühle oder Teppichfliesen"],
+			"alter": 12,
+			"gruppenzusammensetzung": ["haben keine Berührungsängste"],
+			"ungefahre_dauer": 25,
+			"gruppengrose": ["10 - 15 Personen", "15 - 25 Personen"],
+			"bekannt_als": "Zip-Zop, Geländeball"
+		}
+	},
+	{
+		"id": 104,
+		"status": "publish",
+		"modified_gmt": "2025-05-28T07:49:13",
+		"link": "https://example.org/fremder-link/",
+		"title": {"rendered": "Fremder Link"},
+		"excerpt": {"rendered": ""},
+		"content": {"rendered": ""},
+		"acf": {}
+	},
+	{
+		"id": 105,
+		"status": "publish",
+		"modified_gmt": "",
+		"link": "https://pfadfinder-spiele.de/kaputte-daten/",
+		"title": {"rendered": "Spiel mit kaputten Daten"},
+		"excerpt": {"rendered": "<p>Kurz.</p>"},
+		"content": {"rendered": "<p>Text</p>"},
+		"acf": {
+			"spielart": "kein Array",
+			"umgebung": [3, null, "Draußen"],
+			"alter": -4,
+			"ungefahre_dauer": "eine Stunde",
+			"gruppengrose": ["irgendwie viele"]
+		}
+	}
+]
