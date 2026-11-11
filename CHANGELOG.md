@@ -9,6 +9,8 @@ Seit 0.6.3 gibt es nur noch eine Datenbankmigration (Grundschema). Die Entwicklu
 Erste Version im Nextcloud App Store. Die App ist im öffentlichen Test; Rückmeldungen bitte in den Bugtracker. 0.17.0 war ein interner Teststand; die neue Nummer sorgt dafür, dass Nextcloud auch dort aktualisiert (Migrationen, neue Skripte im Browser), wo 0.17.0 schon eingespielt war.
 
 ### Behoben (CI auf GitHub)
+- `composer.json`: Das Paket `nextcloud/ocp` meldet seine Klassen nicht selbst beim Autoloader an; `OCP\` und `NCU\` sind jetzt als `autoload-dev` eingetragen. Ohne das brachen die PHP-Jobs in CI sofort ab.
+- GitHub-Actions auf `actions/checkout@v5` und `actions/setup-node@v5` (Node 24).
 - Ein Test-Hilfsmethode hieß `status()` und kollidierte mit der finalen Methode `TestCase::status()` von PHPUnit; PHPUnit brach deshalb beim Laden ab. Umbenannt; alle 314 Tests laufen mit PHPUnit 11.5.
 - Integrationstest: Skripte werden über `bash` gestartet und brauchen kein Ausführbar-Recht mehr (das unter Windows verloren gehen kann).
 - `.gitattributes`: Zeilenenden im Repository immer LF.
